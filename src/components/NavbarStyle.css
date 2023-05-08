@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit";
+}
+.Navbar{
+        display: grid;
+        align-items: center;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1fr;
+        justify-content: center;
+        align-items: center;
+        height: 94.01px;
+        padding: 0px 35px;
+        /* text-align: center; */
+        /* align-content: center; */
+    }
+    .Navbarlogo{
+        display: flex;
+        justify-content:flex-start;
+        align-items: center;
+        text-align: center;
+    }
+    .Navbaruser{
+        display: flex;
+        justify-content:flex-end;
+        align-items: center;
+    }
+    .Navbarlogo>h1{
+        color:#FE8A00;
+        font-size: 32px;
+        line-height: 40.32px;
+        font-weight: 500;
+        padding:5.5px 0px 0px 10px;
+    }
+    @media screen and (max-width:767px){.Navbar{grid-template-columns: 1fr 1fr;}
+    .Navbarlogo>h1{font-size: 16px;
+        line-height:1.05;
+        line-height:18px;}
+    }
+    @media screen and (min-width:768px) and (max-width:1023px){.Navbar{grid-template-columns: 1fr 1fr;}
+    .Navbarlogo>h1{font-size: 24px;
+        line-height:1.05;
+        line-height:25px;
+    }
+}
+@media screen and (min-width:1024px){.Navbar{grid-template-columns: 1fr 1fr;}
+}
+

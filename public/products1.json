@@ -1,0 +1,54 @@
+[
+        {
+            "id": 1,
+            "title": "iPhone 9",
+            "description": "An apple mobile which is nothing like apple, An apple mobile which is nothing like apple",
+            "price": 85,
+            "images": "Rectangle1.png"
+            
+        },
+        {
+            "id": 2,
+            "title": "iPhone 9",
+            "description": "Organic Cotton, Fair Trade quality",
+            "price": 85,
+            "images": "Rectangle2.png"
+        },{
+            "id": 3,
+            "title": "iPhone 9",
+            "description": "Organic Cotton, Fair Trade quality",
+            "price": 85,
+            "images": "Rectangle3.png"
+        },{
+            "id": 4,
+            "title": "Rounded neck-T shirt 100% Cotton",
+            "description": "Organic Cotton, Fair Trade quality",
+            "price": 85,
+            "images": "Rectangle4.png"
+        },       {
+            "id": 5,
+            "title": "iPhone 9",
+            "description": "An apple mobile which is nothing like apple, An apple mobile which is nothing like apple",
+            "price": 85,
+            "images": "Rectangle1.png"
+        },
+        {
+            "id": 6,
+            "title": "iPhone 9",
+            "description": "Organic Cotton, Fair Trade quality",
+            "price": 85,
+            "images": "Rectangle2.png"
+        },{
+            "id": 7,
+            "title": "iPhone 9",
+            "description": "Organic Cotton, Fair Trade quality",
+            "price": 85,
+            "images": "Rectangle3.png"
+        },{
+            "id": 8,
+            "title": "Rounded neck-T shirt 100% Cotton",
+            "description": "Organic Cotton, Fair Trade quality",
+            "price": 85,
+            "images": "Rectangle4.png"
+        }
+]

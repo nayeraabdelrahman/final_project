@@ -1,0 +1,28 @@
+.MainElment{
+    background-color: #FE8A00;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 20% 80%;
+    justify-content: center;
+    text-align: center;
+}
+.MainElment>h1{
+    color: #FFFFFF;
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 500;
+    text-align: center;
+    padding: 0px 200px 0px 0px;
+}
+@media screen and (max-width:767px){.MainElment{grid-template-columns: 1fr 1fr;}
+.MainElment>h1{font-size: 18px;
+        line-height:18px;}
+}
+@media screen and (min-width:768px) and (max-width:1023px){.MainElment{grid-template-columns: 20% 80%;}
+.MainElment>h1{font-size: 24px;
+    line-height:1.05;
+    line-height:25px;
+}
+}
+@media screen and (min-width:1024px){.MainElment{grid-template-columns: 20% 80%;}
+}
